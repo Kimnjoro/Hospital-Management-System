@@ -35,7 +35,7 @@ Security: hashed passwords, CSRF protection on every form, session cookies
 (HttpOnly, SameSite), role checks on every route, forced first-login password
 change, parameterised SQL, security headers.
 
-## 3. Email add-on (the KES 500 extra)
+## 3. Email add-on 
 
 Emails sent automatically:
 
@@ -59,10 +59,10 @@ The default backend is `smtp`. Configure these environment variables before star
 $env:MAIL_ENABLED = "true"
 $env:MAIL_BACKEND = "smtp"
 $env:MAIL_FROM_NAME = "City Care Hospital"
-$env:MAIL_FROM_ADDRESS = "rockykim254@gmail.com"
+$env:MAIL_FROM_ADDRESS = ".....@gmail.com"
 $env:SMTP_HOST = "smtp.gmail.com"
 $env:SMTP_PORT = "587"
-$env:SMTP_USER = "rockykim254@gmail.com"
+$env:SMTP_USER = ",,,,,@gmail.com"
 $env:SMTP_PASSWORD = "YOUR-NEW-GOOGLE-APP-PASSWORD"
 $env:SMTP_SECURITY = "tls"
 python run.py
